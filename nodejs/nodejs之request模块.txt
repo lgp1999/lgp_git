@@ -1,0 +1,7 @@
+http://www.youdao.com/w/eng/hello/
+
+request('http://www.youdao.com/w/eng/hello/', function (error, response, body) {
+  if (!error &amp;&amp; response.statusCode == 200) {
+    console.log(body) // 请求成功的处理逻辑
+  }
+});
